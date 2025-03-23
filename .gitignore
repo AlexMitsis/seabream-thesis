@@ -1,0 +1,84 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+env/
+.env
+.venv
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Large popoolation files
+**/sync_Sp_aurata_LR537121_popoolation_pwc
+**/sync_Sp_aurata_LR537121_popoolation_rc
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Docker
+*.log
+*.swp
+
+# Environment variables
+.env
+
+# Virtual environment
+venv/
+ENV/
+
+# Data files (modify as needed for your project)
+*.csv
+*.tsv
+*.txt
+*.fasta
+*.fastq
+*.bam
+*.sam
+*.vcf
+*.gff3
+
+
+
+# Output files (modify as needed for your project)
+*.genotype
+*_popoolation_.csv
+*.png
+*.jpeg 
+*.out 
+*.fst 
+*.fet 
+*.fet.gz
+*.fst.gz
+*.params
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# IDE specific files
+.vscode/
+.idea/
+
+# Large files (modify size as needed)
+# Uncomment the following line if you want to ignore all files larger than 100MB
+# *[[:space:]]*(100M|[1-9][0-9]{2,}M|[1-9]G|[1-9][0-9]+G)
