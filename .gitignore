@@ -27,6 +27,9 @@ wheels/
 **/sync_Sp_aurata_LR537121_popoolation_pwc
 **/sync_Sp_aurata_LR537121_popoolation_rc
 
+# Large notebook file
+src/2. preprocessing/PopCountSums.ipynb
+
 # Jupyter Notebook
 .ipynb_checkpoints
 
