@@ -2,7 +2,7 @@
 
 A comprehensive bioinformatics pipeline for analyzing population genetics data from seabream fish using pooled sequencing data. This project processes genomic data through multiple analytical approaches to understand population structure and genetic diversity.
 
-## 🔬 Project Overview
+## Project Overview
 
 This pipeline analyzes Minor Allele Frequency (MAF) data from 24 seabream chromosomes (LR537121-LR537144) to study population genetics using three complementary methods:
 
@@ -93,7 +93,7 @@ pip install -r requirements.txt
 python main.py
 ```
 
-## 📊 Data Requirements
+## Data Requirements
 
 - Input: CSV files containing Minor Allele Frequency data
 - Format: Chromosome, position, reference, and allele counts (A,T,C,G) per population
