@@ -67,7 +67,7 @@ seabream-thesis/
 
 ## 🔧 Key Implementation Highlights
 
-- **Performance Optimization**: Converted DataFrame operations to NumPy arrays achieving 300x speedup (3 minutes vs 9+ minutes)
+- **Performance Optimization**: Converted DataFrame operations to NumPy arrays achieving 300x speedup (3 seconds vs 9+ minutes)
 - **Memory Efficiency**: 3D tensor reshaping for handling multi-population genomic data
 - **Error Handling**: Robust exception handling throughout the pipeline with detailed logging
 - **Modular Design**: Separate modules for each analysis type enabling easy extension
