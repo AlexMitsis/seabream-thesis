@@ -10,7 +10,7 @@ This pipeline analyzes Minor Allele Frequency (MAF) data from 24 seabream chromo
 - **BayPass** - Detects selection signatures and population differentiation using Bayesian methods  
 - **PoPoolation** - Specialized analysis toolkit for pooled sequencing data
 
-## 🚀 Technical Features
+## Technical Features
 
 - **4,000+ lines** of Python code with modular, reusable architecture
 - **High-performance data processing**: 300x speed improvement using NumPy vectorization over standard pandas operations
@@ -19,7 +19,7 @@ This pipeline analyzes Minor Allele Frequency (MAF) data from 24 seabream chromo
 - **Interactive visualizations** with Plotly for exploratory data analysis
 - **Containerized deployment** using Docker for reproducible research environments
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 seabream-thesis/
@@ -34,7 +34,7 @@ seabream-thesis/
 └── dockerfile                # Container configuration
 ```
 
-## 🛠️ Technology Stack
+## Technology Stack
 
 **Core Libraries:**
 - Python 3.10+
@@ -48,7 +48,7 @@ seabream-thesis/
 - Docker for containerization and reproducibility
 - Git version control
 
-## 🧬 Data Processing Workflow
+## Data Processing Workflow
 
 1. **Data Import & Validation**
    - Loads MAF files with allele count data (A, T, C, G) per population
@@ -65,7 +65,7 @@ seabream-thesis/
    - Statistical summaries and quality control metrics
    - Export-ready datasets for downstream analysis
 
-## 🔧 Key Implementation Highlights
+## Key Implementation Highlights
 
 - **Performance Optimization**: Converted DataFrame operations to NumPy arrays achieving 300x speedup (3 seconds vs 9+ minutes)
 - **Memory Efficiency**: 3D tensor reshaping for handling multi-population genomic data
@@ -73,7 +73,7 @@ seabream-thesis/
 - **Modular Design**: Separate modules for each analysis type enabling easy extension
 - **Data Quality Control**: Automated detection and removal of problematic genomic positions
 
-## 🐳 Getting Started
+## Getting Started
 
 ### Using Docker (Recommended)
 ```bash
@@ -99,7 +99,7 @@ python main.py
 - Format: Chromosome, position, reference, and allele counts (A,T,C,G) per population
 - Size: Handles multi-gigabyte datasets efficiently
 
-## 🎯 Applications
+## Applications
 
 This pipeline is designed for:
 - Population genetics research
@@ -107,7 +107,3 @@ This pipeline is designed for:
 - Aquaculture breeding programs
 - Evolutionary biology investigations
 - Marine biodiversity assessments
-
----
-
-*This project demonstrates practical experience in bioinformatics pipeline development, high-performance data processing, statistical analysis, and reproducible research practices.*
